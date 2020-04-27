@@ -11,5 +11,14 @@ public interface IUserDao {
     //query by condition
     public User findByCondition(User user);
 
+    //insert
+    public int insert(User user);
+
+    //update
+    public int update(User user);
+
+    //delete
+    public int delete(User user);
+
 
 }

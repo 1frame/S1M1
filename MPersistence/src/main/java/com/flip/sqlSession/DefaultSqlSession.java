@@ -2,6 +2,8 @@ package com.flip.sqlSession;
 
 import com.flip.pojo.Configuration;
 import com.flip.pojo.MappedStatement;
+import org.apache.ibatis.exceptions.ExceptionFactory;
+import org.apache.ibatis.executor.ErrorContext;
 
 import java.beans.IntrospectionException;
 import java.lang.reflect.*;
@@ -37,6 +39,27 @@ public class DefaultSqlSession implements SqlSession {
     }
 
     @Override
+    public int insert(String statementId, Object... params) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException {
+        return update(statementId, params);
+    }
+
+
+    @Override
+    public int update(String statementId, Object... params) throws IllegalAccessException, IntrospectionException, InstantiationException, NoSuchFieldException, SQLException, InvocationTargetException, ClassNotFoundException {
+        int res;
+        SimpleExecutor simpleExecutor = new SimpleExecutor();
+        MappedStatement mappedStatement = configuration.getMappedStatementMap().get(statementId);
+        res = simpleExecutor.update(configuration, mappedStatement, params);
+        return res;
+    }
+
+    @Override
+    public int delete(String statementId, Object... params) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException {
+        return update(statementId, params);
+    }
+
+
+    @Override
     public <T> T getMapper(Class<?> mapperClass) {
         //使用jdk动态代理为Dao接口生成代理对象
         T proxyInstance = (T) Proxy.newProxyInstance(mapperClass.getClassLoader(), new Class[]{mapperClass}, new InvocationHandler() {
@@ -48,6 +71,11 @@ public class DefaultSqlSession implements SqlSession {
                 //参数1
                 String statementId = className + '.' + methodName;
 
+                Class<?> returnType = method.getReturnType();
+                if (returnType == int.class) {
+                    return update(statementId, args);
+                }
+
                 //参数2
                 Type genericReturnType = method.getGenericReturnType();
                 if (genericReturnType instanceof ParameterizedType) {
@@ -55,6 +83,7 @@ public class DefaultSqlSession implements SqlSession {
                     return objects;
                 }
                 return selectOne(statementId, args);
+
             }
         });
         return proxyInstance;

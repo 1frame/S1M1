@@ -19,22 +19,22 @@ public class MPersistenceTest {
         InputStream resourceAsStream = Resources.getResourceAsStream("sqlMapConfig.xml");
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
-
         //调用
-        User user = new User(1, "张三");
-        /*User userResult = sqlSession.selectOne("user.selectOne", user);
-        System.out.println(userResult);*/
-
-        /*List<User> users = sqlSession.selectList("user.selectList");
-        for (User user1 : users) {
-            System.out.println(user1);
-        }*/
-
+        User user = new User(111, "琪亚娜");
         IUserDao userDao = sqlSession.getMapper(IUserDao.class);
+/*        //findAll
         List<User> all = userDao.findAll();
         for (User user1 : all) {
             System.out.println(user1);
         }
+        //findByCondition
+        User user2 = userDao.findByCondition(user);
+        System.out.println(user2);*/
+
+        int updateResult = userDao.insert(user);
+        System.out.println(updateResult);
+
+
     }
 
 }
