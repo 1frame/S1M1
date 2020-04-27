@@ -1,0 +1,11 @@
+<mapper namespace="com.flip.dao.IUserDao">
+    <!-- user.selectList (statementId)-->
+    <select id="findAll" resultType="com.flip.pojo.User" parameterType="com.flip.pojo.User">
+        select * from user
+    </select>
+
+    <select id="findByCondition" resultType="com.flip.pojo.User" parameterType="com.flip.pojo.User">
+        select * from user where id = #{id} and username = #{username}
+    </select>
+
+</mapper>

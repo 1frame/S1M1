@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8359437e-46e8-4a9a-9be9-6e31c62a12bc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\reposity" />
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Znx7gBq7ZAvjkYBmfmkDhHBAkP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8359437e-46e8-4a9a-9be9-6e31c62a12bc" name="Default Changelist" comment="" />
+      <created>1585488493602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585488493602</updated>
+      <workItem from="1585488499727" duration="3461000" />
+      <workItem from="1586684638434" duration="1156000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="675" y="345" key="FileChooserDialogImpl" timestamp="1586685893051">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="-934" y="1162" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1152.2018@-1440.0.1152.2018" timestamp="1585747433508" />
+    <state x="675" y="345" key="FileChooserDialogImpl/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1586685893051" />
+    <state x="-1362" y="651" key="SettingsEditor" timestamp="1585747448320">
+      <screen x="-1440" y="0" width="1152" height="2018" />
+    </state>
+    <state x="-1362" y="651" key="SettingsEditor/0.0.1536.834/-1440.0.1152.2018@-1440.0.1152.2018" timestamp="1585747448320" />
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1586684705375">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1586684705375" />
+    <state x="447" y="155" width="642" height="524" key="find.popup" timestamp="1586685831069">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="447" y="155" width="642" height="524" key="find.popup/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1586685831069" />
+    <state x="178" y="112" key="new project wizard" timestamp="1586685941125">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="112" key="new project wizard/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1586685941125" />
+  </component>
+</project>

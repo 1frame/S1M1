@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e46404d-1874-416c-b51b-4f26e603dd04" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b1aYo6Ri0pLZw7CNq1eaTJzStc" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MPersistence/src/main/java/com/flip" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2802482" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.flip.sqlSession" />
+      <recent name="com.flip.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Lights will guide you home\Technology\Java\Project\MPersistence\src\main\java\com\flip" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Lights will guide you home\Technology\Java\Project\" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MPersistenceTest.test">
+    <configuration name="MPersistenceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MPersistence_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flip.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.flip.test" />
+      <option name="MAIN_CLASS_NAME" value="com.flip.test.MPersistenceTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../MPersistence" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MPersistenceTest.test" />
+        <item itemvalue="Maven.[install]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e46404d-1874-416c-b51b-4f26e603dd04" name="Default Changelist" comment="" />
+      <created>1587802103802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587802103802</updated>
+      <workItem from="1587802107622" duration="6935000" />
+      <workItem from="1587819754937" duration="9164000" />
+      <workItem from="1587867506879" duration="15324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="76" key="#Project_Structure" timestamp="1587817637422">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="76" key="#Project_Structure/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587817637422" />
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1587913317583">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587913317583" />
+    <state x="389" y="95" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587803989150">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="389" y="95" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587803989150" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587822809911">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587822809911" />
+    <state width="498" height="448" key="DebuggerActiveHint" timestamp="1587886077257">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="498" height="448" key="DebuggerActiveHint/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587886077257" />
+    <state x="548" y="159" key="FileChooserDialogImpl" timestamp="1587819163336">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="548" y="159" key="FileChooserDialogImpl/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587819163336" />
+    <state width="1493" height="268" key="GridCell.Tab.0.bottom" timestamp="1587990742333">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="268" key="GridCell.Tab.0.bottom/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587990742333" />
+    <state width="1493" height="268" key="GridCell.Tab.0.center" timestamp="1587990742333">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="268" key="GridCell.Tab.0.center/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587990742333" />
+    <state width="1493" height="268" key="GridCell.Tab.0.left" timestamp="1587990742333">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="268" key="GridCell.Tab.0.left/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587990742333" />
+    <state width="1493" height="268" key="GridCell.Tab.0.right" timestamp="1587990742333">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="268" key="GridCell.Tab.0.right/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587990742333" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1587914832459">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587914832459" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1587914832458">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587914832458" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1587914832458">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587914832458" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1587914832458">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587914832458" />
+    <state x="258" y="42" key="SettingsEditor" timestamp="1587819777416">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="258" y="42" key="SettingsEditor/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587819777416" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587867503470">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587867503470" />
+    <state x="377" y="122" width="782" height="590" key="find.popup" timestamp="1587884972889">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="377" y="122" width="782" height="590" key="find.popup/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587884972889" />
+    <state x="178" y="54" key="new project wizard" timestamp="1587819044533">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="54" key="new project wizard/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587819044533" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1587818259561">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587818259561" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1587829253580">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587829253580" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/SimpleExecutor.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/SimpleExecutor.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/SimpleExecutor.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/DefaultSqlSession.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="sql" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
