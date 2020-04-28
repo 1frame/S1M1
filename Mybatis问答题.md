@@ -28,9 +28,9 @@ CachingExecutor 是对以上三种Executor的包装，在 BaseExecutor 实现上
 
 **4、简述下Mybatis的一级、二级缓存（分别从存储结构、范围、失效场景。三个方面来作答）？**
 
-1）一级缓存：Mybatis的一级缓存是指SqlSession级别的，作用域是SqlSession，Mybatis默认开启一级缓存，在同一个SqlSession中，相同的Sql查询的时候，第一次查询的时候，就会从缓存中取，如果发现没有数据，那么就从数据库查询出来，并且缓存到HashMap中，如果下次还是相同的查询，就直接从缓存中查询，就不在去查询数据库，对应的就不在去执行SQL语句。当查询到的数据，进行增删改的操作的时候，缓存将会失效。
+1）一级缓存：Mybatis的一级缓存是指SqlSession级别的，作用域是SqlSession，Mybatis默认开启一级缓存，在同一个SqlSession中，相同的Sql查询的时候，第一次查询的时候，就会从缓存中取，如果发现没有数据，那么再去数据库查询，并且缓存到HashMap中，如果下次还是相同的查询，就直接从缓存中查询，不再去查询数据库，对应的就不再执行SQL语句。当进行增删改的操作的时候，缓存将会清空。
 
-2）二级缓存：二级缓存是mapper级别的缓存，多个SqlSession去操作同一个mapper的sql语句，多个SqlSession可以共用二级缓存，二级缓存是跨SqlSession。第一次调用mapper下的sql 的时候去查询信息，查询到的信息会存放到该mapper对应的二级缓存区域，第二次调用namespace下的mapper映射文件中，相同的SQL去查询，回去对应的二级缓存内取结果，如果在相同的namespace下的mapper映射文件中增删改，并且提交了失误，就会失效。
+2）二级缓存：二级缓存是mapper级别的缓存，多个SqlSession去操作同一个mapper的sql语句，多个SqlSession可以共用二级缓存，二级缓存是跨SqlSession。第一次调用mapper下的sql的时候去查询信息，查询到的信息会存放到该mapper对应的二级缓存区域，第二次调用相同namespace下的mapper映射文件中，相同的SQL去查询，并去对应的二级缓存内取结果，如果在相同的namespace下的mapper映射文件中进行增删改操作，并且提交了事务，就二级缓存会被清空。
 
 
 
@@ -38,7 +38,30 @@ CachingExecutor 是对以上三种Executor的包装，在 BaseExecutor 实现上
 
 Mybatis可以编写针对Executor、StatementHandler、ParameterHandler、ResultSetHandler四个接口的插件，mybatis使用JDK的动态代理为需要拦截的接口生成代理对象，然后实现接口的拦截方法，所以当执行需要拦截的接口方法时，会进入拦截方法（AOP面向切面编程的思想）。
 
+如何编写插件：
+
 1.编写Intercepror接口的实现类
+
+```java
+@Intercepts(@Signature(type = StatementHandler.class ,method="query" ,args= {Statement.class, ResultHandler.class}))
+public class NewPlugin implements Interceptor {
+  @Override
+  public Object intercept(Invocation invocation) throws Throwable {	
+    try {
+      System.out.println("前置增强");
+	   return invocation.proceed();  
+    } finally {
+      System.out.println("后置增强");
+    }
+  }
+  @Override
+  public Object plugin(Object target) {
+    return  Plugin.wrap(target, this);
+  } 
+  public void setProperties(Properties properties) {  }
+
+}
+```
 
 2.设置插件的签名，告诉mybatis拦截的具体对象的具体方法
 
