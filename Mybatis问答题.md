@@ -37,27 +37,9 @@ CachingExecutor 是对以上三种Executor的包装，在 BaseExecutor 实现上
 **5、简述Mybatis的插件运行原理，以及如何编写一个插件？**
 
 Mybatis可以编写针对Executor、StatementHandler、ParameterHandler、ResultSetHandler四个接口的插件，mybatis使用JDK的动态代理为需要拦截的接口生成代理对象，然后实现接口的拦截方法，所以当执行需要拦截的接口方法时，会进入拦截方法（AOP面向切面编程的思想）。
-1.编写Intercepror接口的实现类
-```java
-@Intercepts(@Signature(type = StatementHandler.class ,method="query" ,args= {Statement.class, ResultHandler.class}))
-public class NewPlugin implements Interceptor {
-  @Override
-  public Object intercept(Invocation invocation) throws Throwable {	
-    try {
-      System.out.println("执行前置");
-	   return invocation.proceed();  
-    } finally {
-      System.out.println("执行后置");
-    }
-  }
-  @Override
-  public Object plugin(Object target) {
-    return  Plugin.wrap(target, this);
-  } 
-  public void setProperties(Properties properties) {  }
 
-}
-```
+1.编写Intercepror接口的实现类
+
 2.设置插件的签名，告诉mybatis拦截的具体对象的具体方法
 
 3.将插件注册到全局配置文件中
