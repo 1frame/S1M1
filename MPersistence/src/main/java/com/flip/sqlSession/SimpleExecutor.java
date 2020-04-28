@@ -53,7 +53,7 @@ public class SimpleExecutor implements Executor {
     public int update(Configuration configuration, MappedStatement mappedStatement, Object... params) throws SQLException, ClassNotFoundException, NoSuchFieldException, IllegalAccessException, IntrospectionException, InstantiationException, InvocationTargetException {
         PreparedStatement preparedStatement = getPreparedStatement(configuration, mappedStatement, params);
         boolean ret = preparedStatement.execute();
-        return ret ? 0 : 1;
+        return ret ? 1 : 0;
     }
 
     private Class<?> getClassType(String parameterType) throws ClassNotFoundException {

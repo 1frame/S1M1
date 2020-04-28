@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e46404d-1874-416c-b51b-4f26e603dd04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPersistence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/config/XMLMapperBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/config/XMLMapperBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/DefaultSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/DefaultSqlSession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/Executor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/SimpleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/SimpleExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/SqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/SqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/config/XMLMapperBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/config/XMLMapperBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/sqlSession/DefaultSqlSession$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/sqlSession/DefaultSqlSession$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/sqlSession/DefaultSqlSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/sqlSession/DefaultSqlSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/sqlSession/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/sqlSession/Executor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/sqlSession/SimpleExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/sqlSession/SimpleExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/sqlSession/SqlSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MPersistence/target/classes/com/flip/sqlSession/SqlSession.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flip/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flip/dao/IUserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/flip/test/MPersistenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flip/test/MPersistenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flip/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flip/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/flip/test/MPersistenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flip/test/MPersistenceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,39 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MPersistenceTest.test">
+  <component name="RunManager" selected="JUnit.MPersistenceTest.delete">
+    <configuration name="MPersistenceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MPersistence_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flip.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.flip.test" />
+      <option name="MAIN_CLASS_NAME" value="com.flip.test.MPersistenceTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MPersistenceTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MPersistence_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flip.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.flip.test" />
+      <option name="MAIN_CLASS_NAME" value="com.flip.test.MPersistenceTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MPersistenceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MPersistence_Test" />
       <extension name="coverage">
@@ -90,6 +124,22 @@
       <option name="PACKAGE_NAME" value="com.flip.test" />
       <option name="MAIN_CLASS_NAME" value="com.flip.test.MPersistenceTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MPersistenceTest.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MPersistence_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flip.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.flip.test" />
+      <option name="MAIN_CLASS_NAME" value="com.flip.test.MPersistenceTest" />
+      <option name="METHOD_NAME" value="updateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,6 +172,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MPersistenceTest.delete" />
+        <item itemvalue="JUnit.MPersistenceTest.updateTest" />
+        <item itemvalue="JUnit.MPersistenceTest.insertTest" />
         <item itemvalue="JUnit.MPersistenceTest.test" />
         <item itemvalue="Maven.[install]" />
       </list>
@@ -151,12 +204,24 @@
       <updated>1587802103802</updated>
       <workItem from="1587802107622" duration="6935000" />
       <workItem from="1587819754937" duration="9164000" />
-      <workItem from="1587867506879" duration="27129000" />
+      <workItem from="1587867506879" duration="31060000" />
     </task>
+    <task id="LOCAL-00001" summary="add insert,update,delete">
+      <created>1588005433680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588005433680</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add insert,update,delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="add insert,update,delete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Project_Structure" timestamp="1587817637422">
@@ -176,6 +241,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587822809911" />
+    <state x="-2049" y="153" key="CommitChangelistDialog2" timestamp="1588005430743">
+      <screen x="-2560" y="0" width="2048" height="1122" />
+    </state>
+    <state x="-2049" y="153" key="CommitChangelistDialog2/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005430743" />
     <state width="664" height="603" key="DebuggerActiveHint" timestamp="1588004032494">
       <screen x="-2560" y="0" width="2048" height="1122" />
     </state>
@@ -185,54 +254,54 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="548" y="159" key="FileChooserDialogImpl/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587819163336" />
-    <state width="2005" height="379" key="GridCell.Tab.0.bottom" timestamp="1588005273635">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1588077062987">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.0.bottom/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005559495" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1588077062987" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1588077062987">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.0.center/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005559495" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1588077062987" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1588077062987">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.0.left/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005559495" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1588077062987" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1588077062987">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.0.right/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005559495" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1588077062987" />
+    <state width="2005" height="379" key="GridCell.Tab.1.bottom" timestamp="1588005559496">
       <screen x="-2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="379" key="GridCell.Tab.0.bottom/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005273635" />
-    <state width="1493" height="268" key="GridCell.Tab.0.bottom/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587990742333" />
-    <state width="2005" height="379" key="GridCell.Tab.0.center" timestamp="1588005273634">
-      <screen x="-2560" y="0" width="2048" height="1122" />
-    </state>
-    <state width="2005" height="379" key="GridCell.Tab.0.center/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005273634" />
-    <state width="1493" height="268" key="GridCell.Tab.0.center/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587990742333" />
-    <state width="2005" height="379" key="GridCell.Tab.0.left" timestamp="1588005273634">
-      <screen x="-2560" y="0" width="2048" height="1122" />
-    </state>
-    <state width="2005" height="379" key="GridCell.Tab.0.left/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005273634" />
-    <state width="1493" height="268" key="GridCell.Tab.0.left/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587990742333" />
-    <state width="2005" height="379" key="GridCell.Tab.0.right" timestamp="1588005273635">
-      <screen x="-2560" y="0" width="2048" height="1122" />
-    </state>
-    <state width="2005" height="379" key="GridCell.Tab.0.right/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005273635" />
-    <state width="1493" height="268" key="GridCell.Tab.0.right/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587990742333" />
-    <state width="2005" height="379" key="GridCell.Tab.1.bottom" timestamp="1588005276581">
-      <screen x="-2560" y="0" width="2048" height="1122" />
-    </state>
-    <state width="2005" height="379" key="GridCell.Tab.1.bottom/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005276581" />
+    <state width="2005" height="379" key="GridCell.Tab.1.bottom/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005559496" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587914832459" />
-    <state width="2005" height="379" key="GridCell.Tab.1.center" timestamp="1588005276581">
+    <state width="2005" height="379" key="GridCell.Tab.1.center" timestamp="1588005559496">
       <screen x="-2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="379" key="GridCell.Tab.1.center/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005276581" />
+    <state width="2005" height="379" key="GridCell.Tab.1.center/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005559496" />
     <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587914832458" />
-    <state width="2005" height="379" key="GridCell.Tab.1.left" timestamp="1588005276580">
+    <state width="2005" height="379" key="GridCell.Tab.1.left" timestamp="1588005559495">
       <screen x="-2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="379" key="GridCell.Tab.1.left/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005276580" />
+    <state width="2005" height="379" key="GridCell.Tab.1.left/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005559495" />
     <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587914832458" />
-    <state width="2005" height="379" key="GridCell.Tab.1.right" timestamp="1588005276581">
+    <state width="2005" height="379" key="GridCell.Tab.1.right" timestamp="1588005559496">
       <screen x="-2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="379" key="GridCell.Tab.1.right/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005276581" />
+    <state width="2005" height="379" key="GridCell.Tab.1.right/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005559496" />
     <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587914832458" />
     <state x="258" y="42" key="SettingsEditor" timestamp="1587819777416">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="258" y="42" key="SettingsEditor/0.0.1536.834/-2560.0.2048.1122@0.0.1536.834" timestamp="1587819777416" />
-    <state x="-1943" y="294" key="Vcs.Push.Dialog.v2" timestamp="1588005375086">
+    <state x="-1943" y="294" key="Vcs.Push.Dialog.v2" timestamp="1588005437745">
       <screen x="-2560" y="0" width="2048" height="1122" />
     </state>
-    <state x="-1943" y="294" key="Vcs.Push.Dialog.v2/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005375086" />
+    <state x="-1943" y="294" key="Vcs.Push.Dialog.v2/0.0.1536.834/-2560.0.2048.1122@-2560.0.2048.1122" timestamp="1588005437745" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587867503470">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -298,6 +367,14 @@
           <url>file://$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/SimpleExecutor.java</url>
           <line>54</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../MPersistence/src/main/java/com/flip/sqlSession/SqlSession.java</url>
+          <line>24</line>
+          <properties class="com.flip.sqlSession.SqlSession" method="getMapper">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,11 +1,23 @@
 <mapper namespace="com.flip.dao.IUserDao">
     <!-- user.selectList (statementId)-->
-    <select id="findAll" resultType="com.flip.pojo.User" parameterType="com.flip.pojo.User">
+    <select id="findAll" resultType="com.flip.pojo.User">
         select * from user
     </select>
 
     <select id="findByCondition" resultType="com.flip.pojo.User" parameterType="com.flip.pojo.User">
         select * from user where id = #{id} and username = #{username}
     </select>
+
+    <update id="update" parameterType="com.flip.pojo.User">
+        update user set username = #{username} where id = #{id}
+    </update>
+
+    <insert id="insert" parameterType="com.flip.pojo.User">
+        insert user values(#{id},#{username})
+    </insert>
+
+    <delete id="delete" parameterType="com.flip.pojo.User">
+        delete from user where id = #{id}
+    </delete>
 
 </mapper>
